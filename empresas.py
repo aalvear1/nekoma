@@ -20,6 +20,8 @@ with open('listadoRutEmpresa.csv', 'r', newline='') as archivo:
             clasifica = "Gran Contribuyente"
         #end if
         
+        print(f"La empresa {empresa} de rut {rut} es un {clasifica} ya que sus ventas son de {ventas}")
+        
         clasificacion.append({
             'Rut': rut,
             'Nombre Empresa': empresa,
